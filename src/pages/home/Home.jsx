@@ -1,12 +1,15 @@
 import useColor from "../../hooks/useColor";
+import Hero from "./hero/Hero";
 
 
 const Home = () => {
-    const { color } = useColor()
+    const { color, whiteColor } = useColor()
     return (
-        <div style={{ color: color }} className="text-7xl text-center">
-            This is home
-        </div>
+        <>
+            <section>
+                <Hero color={color} whiteColor={whiteColor}></Hero>
+            </section>
+        </>
     );
 };
 

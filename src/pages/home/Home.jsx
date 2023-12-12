@@ -1,4 +1,5 @@
 import useColor from "../../hooks/useColor";
+import ContactMe from "./contact/Contact";
 import Education from "./education/Education";
 import Experience from "./experience/Experience";
 import Footer from "./footer/Footer";
@@ -25,6 +26,9 @@ const Home = () => {
             </section>
             <section>
                 <Experience></Experience>
+            </section>
+            <section>
+                <ContactMe></ContactMe>
             </section>
             <section>
                 <Footer></Footer>

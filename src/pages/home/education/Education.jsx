@@ -1,4 +1,5 @@
 import Heading from "../../../components/heading/Heading";
+import Line from "../../../components/line/Line";
 import useColor from "../../../hooks/useColor";
 
 
@@ -7,7 +8,7 @@ const Education = () => {
     return (
         <div className="mx-5 justify-between">
             <Heading subject={'My Education & Professional Courses'}></Heading>
-            <div className="lg:flex">
+            <div className="lg:flex mb-20">
                 <div className="container mx-auto py-12">
                     <h2 className="text-3xl font-bold mb-8" style={{ color: color }}>Education</h2>
 
@@ -45,6 +46,7 @@ const Education = () => {
                     </div>
                 </div>
             </div>
+            <Line></Line>
         </div>
     );
 };

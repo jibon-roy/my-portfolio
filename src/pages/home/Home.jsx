@@ -1,5 +1,6 @@
 import useColor from "../../hooks/useColor";
 import Hero from "./hero/Hero";
+import Projects from "./projects/Projects";
 import Skills from "./skills/Skills";
 
 
@@ -12,6 +13,9 @@ const Home = () => {
             </section>
             <section>
                 <Skills ></Skills>
+            </section>
+            <section>
+                <Projects></Projects>
             </section>
         </>
     );

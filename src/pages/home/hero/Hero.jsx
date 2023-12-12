@@ -1,6 +1,7 @@
 import React from 'react';
 import TextTransition, { presets } from 'react-text-transition';
 import MyResume from '../../../assets/resume.pdf'
+import Line from '../../../components/line/Line';
 
 const TEXTS = ['Web Developer', 'MERN Stack Developer', 'React Developer', 'JS Developer'];
 
@@ -32,7 +33,7 @@ const Hero = ({ color, whiteColor }) => {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-1 flex -rotate-3' style={{ backgroundColor: color }}></div>
+            <Line></Line>
         </>
     );
 };

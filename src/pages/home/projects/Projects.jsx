@@ -52,7 +52,7 @@ const Projects = () => {
         <div className="mx-auto py-12">
             <Heading subject={'My Projects'}></Heading>
 
-            <div className="grid md:grid-cols-2 mx-5 gap-5 mb-20">
+            <div className="grid md:grid-cols-2 mx-5 gap-5 mb-32">
 
                 <ProjectCard
                     title="Survey Wave"

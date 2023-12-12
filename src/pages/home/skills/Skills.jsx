@@ -60,7 +60,7 @@ const Skills = () => {
 
             <Heading subject={'My Skills'}></Heading>
 
-            <div className="text-2xl mb-20 px-5 gap-x-10 font-bold grid md:grid-cols-2" style={{ color: whiteColor }} ref={skillsRef}>
+            <div className="text-2xl mb-32 mt-10 px-5 gap-x-10 font-bold grid md:grid-cols-2" style={{ color: whiteColor }} ref={skillsRef}>
 
 
                 <Skill name="HTML" level={80} imageSrc={Html} />

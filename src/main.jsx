@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <div className='container mx-auto'>
         <AnimatedCursor
           showSystemCursor={true}
-          innerSize={8}
+          innerSize={5}
           outerSize={30}
           outerAlpha={0.2}
           innerScale={0.2}
@@ -35,8 +35,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             '.link'
           ]}
           outerStyle={{
-            border: `2px solid white`,
-            backgroundColor: '#FFFFFF22'
+            border: `1px solid #ffffff`,
+            backgroundColor: '#d3d3d322'
           }}
           innerStyle={{
             backgroundColor: 'white',

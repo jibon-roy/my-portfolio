@@ -56,7 +56,10 @@ const ContactMe = () => {
 
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
         <div className="mb-4">
-          <label htmlFor="name" className="block  text-sm font-bold mb-2">
+          <label
+            htmlFor="name"
+            className="block text-white text-sm font-bold mb-2"
+          >
             Name
           </label>
           <input
@@ -66,13 +69,16 @@ const ContactMe = () => {
             value={formData.name}
             placeholder="Your name"
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2  border border-gray-300 rounded"
             required
           />
         </div>
 
         <div className="mb-4">
-          <label htmlFor="email" className="block  text-sm font-bold mb-2">
+          <label
+            htmlFor="email"
+            className="block text-white text-sm font-bold mb-2"
+          >
             Email
           </label>
           <input
@@ -88,7 +94,10 @@ const ContactMe = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="subject" className="block  text-sm font-bold mb-2">
+          <label
+            htmlFor="subject"
+            className="block text-white text-sm font-bold mb-2"
+          >
             Subject
           </label>
           <input
@@ -104,7 +113,10 @@ const ContactMe = () => {
         </div>
 
         <div className="mb-4">
-          <label htmlFor="body" className="block  text-sm font-bold mb-2">
+          <label
+            htmlFor="body"
+            className="block text-white text-sm font-bold mb-2"
+          >
             Message
           </label>
           <textarea

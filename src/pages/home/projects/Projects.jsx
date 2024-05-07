@@ -23,71 +23,73 @@ const ProjectCard = ({ title, description, imageSrc, gitLink, liveLink }) => {
   });
   const { color } = useColor();
   return (
-    <animated.div
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-      className={`relative shadow-md `}
-      style={{
-        ...cardAnimation,
-        willChange: "opacity, transform",
-        backgroundColor: hover ? color : color + "aa",
-        transition: "0.5s",
-        height: "400px",
-      }}
-      ref={ref}
-    >
-      <div>
-        <img
-          src={imageSrc}
-          alt={`${title} Project`}
-          className={
-            hover
-              ? `h-0 w-0 opacity-0 transition-all`
-              : `w-full h-[400px] object-fill transition-all`
-          }
-        />
-      </div>
-      <div
+    <div className="rounded-3xl overflow-hidden">
+      <animated.div
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+        className={`relative shadow-md `}
         style={{
-          display: hover ? "block" : "none",
-          color: hover ? "black" : color,
+          ...cardAnimation,
+          willChange: "opacity, transform",
+          backgroundColor: hover ? color : color + "aa",
+          transition: "0.5s",
+          height: "400px",
         }}
-        className="mx-4 absolute top-10"
+        ref={ref}
       >
-        <h3 className="text-3xl font-bold mb-2">{title}</h3>
-        <p
-          className="mb-5"
+        <div>
+          <img
+            src={imageSrc}
+            alt={`${title} Project`}
+            className={
+              hover
+                ? `h-0 w-0 opacity-0 transition-all`
+                : `w-full h-[400px] object-fill transition-all`
+            }
+          />
+        </div>
+        <div
           style={{
             display: hover ? "block" : "none",
             color: hover ? "black" : color,
           }}
+          className="mx-4 absolute top-10"
         >
-          {description}
-        </p>
-        <div>
-          <span className="font-semibold mr-2">Live Link: </span>
-          <a
-            className="text-blue-800"
-            href={liveLink}
-            rel="noreferrer"
-            target="_blank"
+          <h3 className="text-3xl font-bold mb-2">{title}</h3>
+          <p
+            className="mb-5"
+            style={{
+              display: hover ? "block" : "none",
+              color: hover ? "black" : color,
+            }}
           >
-            {liveLink}
-          </a>
+            {description}
+          </p>
+          <div>
+            <span className="font-semibold mr-2">Live Link: </span>
+            <a
+              className="text-blue-800"
+              href={liveLink}
+              rel="noreferrer"
+              target="_blank"
+            >
+              {liveLink}
+            </a>
+          </div>
+          <div>
+            <span className="font-semibold mr-2">Github Link: </span>
+            <a
+              className="text-blue-800"
+              href={gitLink}
+              rel="noreferrer"
+              target="_blank"
+            >
+              {gitLink}
+            </a>
+          </div>
         </div>
-        <div>
-          <span className="font-semibold mr-2">Github Link: </span>
-          <a
-            className="text-blue-800"
-            href={gitLink}
-            rel="noreferrer"
-            target="_blank"
-          >
-            {gitLink}
-          </a>
-        </div>
-      </div>
-    </animated.div>
+      </animated.div>
+    </div>
   );
 };
 

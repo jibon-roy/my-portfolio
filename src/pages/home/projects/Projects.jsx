@@ -100,13 +100,10 @@ const Projects = () => {
         <ProjectCard
           title="Virtual Doc"
           description={`
-                    User can easily filter survey by title, category, by vote.
-To be a pro user and to get advanced facility an user can purchase premium package.
-Without login no user can participate in any survey.
-If any user wants to comment he/she will have to be a premium user and regular may like, report in any survey.
+                    Excited to present ‘VirtualDoc’ - our innovative platform designed to revolutionize healthcare experiences. VirtualDoc offers a seamless online portal for patients to schedule appointments, consult with doctors, and handle payments securely. Our goal is to simplify access to healthcare services, ensuring convenience and efficiency for both patients and medical professionals. Check out the live site.
                     `}
-          gitLink={"https://github.com/jibon-roy/survey-wave-client"}
-          liveLink={"https://survey-wave-site.web.app/"}
+          gitLink={"https://github.com/TeamTechTitans/VirtualDoc"}
+          liveLink={"https://virtual-doc-site.web.app"}
           imageSrc={Project0}
         />
         <ProjectCard
@@ -131,7 +128,7 @@ If any user wants to comment he/she will have to be a premium user and regular m
                         Accept and reject job from bid request.
                     `}
           gitLink={"https://github.com/jibon-roy/survey-wave-client"}
-          liveLink={"https://survey-wave-site.web.app/"}
+          liveLink={"https://job-hunter-site.web.app"}
           imageSrc={Project2}
         />
 

@@ -80,6 +80,7 @@ const ContactMe = () => {
             id="email"
             name="email"
             value={formData.email}
+            placeholder="Your email"
             onChange={handleChange}
             className="w-full p-2 border border-gray-300 rounded"
             required

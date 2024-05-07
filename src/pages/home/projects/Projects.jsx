@@ -127,7 +127,7 @@ If any user wants to comment he/she will have to be a premium user and regular m
                         Can bid a job from job details.
                         Accept and reject job from bid request.
                     `}
-          gitLink={"https://github.com/jibon-roy/survey-wave-client"}
+          gitLink={"https://github.com/jibon-roy/job-hunter-client"}
           liveLink={"https://job-hunter-site.web.app"}
           imageSrc={Project2}
         />

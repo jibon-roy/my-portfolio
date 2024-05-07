@@ -96,6 +96,7 @@ const ContactMe = () => {
             id="subject"
             name="subject"
             value={formData.subject}
+            placeholder="Subject"
             onChange={handleChange}
             className="w-full p-2 border border-gray-300 rounded"
             required

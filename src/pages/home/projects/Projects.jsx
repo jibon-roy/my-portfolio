@@ -1,7 +1,7 @@
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
 import Heading from "../../../components/heading/Heading";
-import Project0 from "../../../assets/project-1.jpg";
+import Project0 from "../../../assets/project-0.jpg";
 import Project1 from "../../../assets/project-1.jpg";
 import Project2 from "../../../assets/project-2.jpg";
 import Project3 from "../../../assets/project-3.jpg";

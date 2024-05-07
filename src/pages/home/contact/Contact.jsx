@@ -112,6 +112,7 @@ const ContactMe = () => {
             name="body"
             value={formData.body}
             onChange={handleChange}
+            placeholder="Write your messege..."
             rows="4"
             className="w-full p-2 border border-gray-300 rounded"
             required

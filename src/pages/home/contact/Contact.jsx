@@ -44,7 +44,7 @@ const ContactMe = () => {
       // alert('Error sending email');
       Swal.fire({
         title: "Failed!",
-        text: "Email sent failed!",
+        text: "Opps, email sent failed!",
         icon: "error",
       });
     }
